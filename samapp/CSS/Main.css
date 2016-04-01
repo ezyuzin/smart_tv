@@ -1,0 +1,56 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+#LogLabel 
+{
+	position: absolute;
+	left: 11px;
+	top: 86px;
+	width: 923px;
+	height: 434px;
+	z-index : 100;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+#Label 
+{
+	position: absolute;
+	left: 11px;
+	top: 10px;
+	width: 925px;
+	height: 19px;
+	z-index : 100;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+#Label1 
+{
+	position: absolute;
+	left: 271px;
+	top: 36px;
+	width: 414px;
+	height: 39px;
+	z-index : 100;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+}
+
+#logo_bg
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 960px;
+    height: 540px;
+    background-image: url("../icon/bg.jpg");
+    z-index : 10;
+}
