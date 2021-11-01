@@ -1,21 +1,22 @@
 SAMSUNG UE48H6650
 
-1. скачать образ samyext4.img > https://disk.yandex.ru/d/5iVBV9aHqaPqpA  <br/>
-1.1. положить его в папку $/samboot/image
+1. download image samyext4.img > https://disk.yandex.ru/d/5iVBV9aHqaPqpA  <br/>
+1.1. place it in folder $/samboot/image
 
-2. Отформатировать флешку в FAT32<br/>
-2.1. Скопировать все в корень флешки<br/>
-2.2. Вставить флешку в TV<br/>
-2.3. В меню приложений должно появится приложение SamyGo<br/>
-2.4. Запускаем его, рутуем телевизор<br/>
-2.5. перегружаем телевизор, должен появится ftp и telnet доступ<br/>
+2. Format flashdisk FAT32<br/>
+2.1. Copy all into flashdisk root folder<br/>
+2.2. Insert flashdisk into TV USB-port<br/>
+2.3. In TV-menu should be appear application "SamyGo"<br/>
+2.4. Run, it do rooting tv<br/>
+2.5. Reboot TV, after reboot should be able to connect using ftp, telnet<br/>
 
-3. доступ<br/>
-3.1. telnet 192.168.0.108:23 (без логин пароля)<br/>
-3.2. ftp 192.168.0.108:23 (без логин пароля)<br/>
-3.3. telnet кастрированный, все команды нужно выполнять от корня.<br/>
-иногда подтверждать дважды<br/>
-вывод потока с ошибками нужно перенаправлять через 2>&1;<br/>
-пример: ls -al / 2>&1<br/>
-иначе остаемся без сообщений о ошибках
+3. Access to TV<br/>
+3.1. telnet 192.168.0.108:23 (with empty login/password)<br/>
+3.2. ftp 192.168.0.108:23 (with empty login/password)<br/>
+3.3. telnet has strictions, 
+all command should be referenced from root folder<br/>
+sometimes need to confirm twice (press enter twice)<br/>
+errour output should be redirected using 2>&1;<br/>
+for sample: ls -al / 2>&1<br/>
+otherise not displayed all errors that happend while command returned
 
