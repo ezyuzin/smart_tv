@@ -18,5 +18,5 @@ all command should be referenced from root folder<br/>
 sometimes need to confirm twice (press enter twice)<br/>
 errour output should be redirected using 2>&1;<br/>
 for sample: ls -al / 2>&1<br/>
-otherise not displayed all errors that happend while command returned
+othewise not displayed all errors that happend while command returned
 
