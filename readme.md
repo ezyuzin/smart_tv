@@ -14,9 +14,9 @@ SAMSUNG UE48H6650
 3.1. telnet 192.168.0.108:23 (with empty login/password)<br/>
 3.2. ftp 192.168.0.108:23 (with empty login/password)<br/>
 3.3. telnet has strictions, 
-all command should be referenced from root folder<br/>
-sometimes need to confirm twice (press enter twice)<br/>
-errour output should be redirected using 2>&1;<br/>
+- all paths expect to be started from root folder<br/>
+- sometimes need to confirm twice (press enter twice)<br/>
+- errour output should be redirected using 2>&1;<br/>
 for sample: ls -al / 2>&1<br/>
 othewise not displayed all errors that happend while command returned
 
