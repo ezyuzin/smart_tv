@@ -3,9 +3,9 @@ SAMSUNG UE48H6650
 1. download image samyext4.img > https://disk.yandex.ru/d/5iVBV9aHqaPqpA  <br/>
 1.1. place it in folder $/samboot/image
 
-2. Format flashdisk FAT32<br/>
-2.1. Copy all into flashdisk root folder<br/>
-2.2. Insert flashdisk into TV USB-port<br/>
+2. Format usbdisk FAT32<br/>
+2.1. Copy all content into root folder<br/>
+2.2. Insert usbdisk into TV USB-port<br/>
 2.3. In TV-menu should be appear application "SamyGo"<br/>
 2.4. Run, it do rooting tv<br/>
 2.5. Reboot TV, after reboot should be able to connect using ftp, telnet<br/>
